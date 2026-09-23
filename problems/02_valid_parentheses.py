@@ -15,7 +15,6 @@ def is_valid_parentheses(text: str) -> bool:
 
     return not stack
 
-
 if __name__ == "__main__":
     assert is_valid_parentheses("({[]})")
     assert not is_valid_parentheses("([)]")
